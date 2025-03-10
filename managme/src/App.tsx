@@ -6,7 +6,6 @@ function App() {
   const [refresh, setRefresh] = useState(false);
 
   return (
-    //
     <div>
       <h1>ManagMe - Zarządzanie Projektami</h1>
       <ProjectForm onProjectAdded={() => setRefresh(!refresh)} />
