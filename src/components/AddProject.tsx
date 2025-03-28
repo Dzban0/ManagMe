@@ -30,9 +30,7 @@ const AddProject = (props: AddProjectProps) => {
 
   return (
     <div className="p-4 bg-gray-800 rounded-lg shadow-md mt-4">
-      <h3 className="text-lg font-semibold text-white mb-2">
-        Dodaj nowy projekt
-      </h3>
+      <h3 className="text-lg font-semibold text-white mb-2">Dodaj nowy projekt</h3>
       <input
         type="text"
         placeholder="Nazwa projektu"
