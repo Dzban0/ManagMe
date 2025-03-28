@@ -51,9 +51,7 @@ const AddStory = () => {
 
   return (
     <div className="p-4 bg-gray-800 rounded-lg shadow-md mt-4">
-      <h3 className="text-lg font-semibold text-white mb-2">
-        Dodaj nową historyjkę
-      </h3>
+      <h3 className="text-lg font-semibold text-white mb-2">Dodaj nową historyjkę</h3>
 
       <input
         type="text"
@@ -100,9 +98,8 @@ const AddStory = () => {
       <button
         onClick={handleAdd}
         className="w-full px-4 py-2 bg-green-600 hover:bg-green-500 rounded text-white font-semibold transition duration-300"
-      >
-        ➕ Dodaj historyjkę
-      </button>
+      >Dodaj historyjkę</button>
+      
       <div className="w-20 mt-3 px-4 py-2 bg-blue-600 hover:bg-blue-500 rounded text-white font-semibold">
         <Link to={"/"}>Menu</Link>
       </div>
