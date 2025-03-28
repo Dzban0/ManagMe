@@ -64,7 +64,7 @@ const ShowActiveProject = () => {
 
             <div>
               <h4 className="text-lg font-semibold text-white mt-4">
-                ⚙️ Wykonywane
+                Wykonywane
               </h4>
               {doingStories.length > 0 ? (
                 <ul className="list-disc pl-6">
@@ -87,7 +87,7 @@ const ShowActiveProject = () => {
 
             <div>
               <h4 className="text-lg font-semibold text-white mt-4">
-                ✅ Zakończone
+                Zakończone
               </h4>
               {doneStories.length > 0 ? (
                 <ul className="list-disc pl-6">
