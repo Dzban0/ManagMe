@@ -29,6 +29,9 @@ const ShowActiveProject = () => {
         <div className="w-full max-w-3xl bg-gray-900 p-8 rounded-xl">
           <div className="space-y-6">
             <div className="text-lg font-semibold text-gray-300">
+              {activeProject?.name}
+            </div>
+            <div className="text-lg font-semibold text-gray-300">
               <span className="text-cyan-400">Nazwa projektu:</span>{" "}
               {activeProject?.name}
             </div>

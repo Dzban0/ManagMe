@@ -6,6 +6,9 @@ const Header = () => {
   return (
     <header className="p-4 bg-gray-800 text-white flex justify-between items-center rounded-md">
       <div>
+      <span className="font-bold">ManagMe - Zarządzanie projektami</span>
+      </div>
+      <div>
         <span className="font-bold">Zalogowany:</span> {user.firstName}{" "}
         {user.lastName}
       </div>
