@@ -30,9 +30,7 @@ const ShowActiveProject = () => {
             <h3 className="text-xl font-bold text-white mt-4">📌 Historyjki</h3>
 
             <div>
-              <h4 className="text-lg font-semibold text-white mt-4">
-                🔲 Czekające na wykonanie
-              </h4>
+              <h4 className="text-lg font-semibold text-white mt-4">🔲 Czekające na wykonanie</h4>
               {todoStories.length > 0 ? (
                 <ul className="list-disc pl-6">
                   {todoStories.map((story) => (
