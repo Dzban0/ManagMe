@@ -79,6 +79,7 @@ const AddStory = () => {
           <option value="średni">średni</option>
           <option value="wysoki">wysoki</option>
         </select>
+        
         Stan:
         <select
           className="text-green-600"
