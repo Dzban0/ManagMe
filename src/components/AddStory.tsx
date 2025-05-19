@@ -96,10 +96,9 @@ const AddStory = () => {
         <p>Autor: {owner}</p>
       </div>
 
-      <button
-        onClick={handleAdd}
-        className="w-full px-4 py-2 bg-green-600 hover:bg-green-500 rounded text-white font-semibold transition duration-300"
-      >Dodaj historyjkę</button>
+      <button onClick={handleAdd} className="w-full px-4 py-2 bg-green-600 hover:bg-green-500 rounded text-white font-semibold transition duration-300">
+        Dodaj historyjkę
+      </button>
       
       <div className="w-20 mt-3 px-4 py-2 bg-blue-600 hover:bg-blue-500 rounded text-white font-semibold">
         <Link to={"/"}>Menu</Link>
