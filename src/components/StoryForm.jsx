@@ -34,14 +34,14 @@ export const StoryForm = ({ projectId, onStoryAdded }) => {
       <div className="grid grid-cols-1 gap-4">
         <input
           type="text"
-          placeholder="Story Name"
+          placeholder="Nazwa"
           value={name}
           onChange={(e) => setName(e.target.value)}
           className="border p-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
           required
         />
         <textarea
-          placeholder="Description"
+          placeholder="Opis"
           value={description}
           onChange={(e) => setDescription(e.target.value)}
           className="border p-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"

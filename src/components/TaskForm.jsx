@@ -36,9 +36,9 @@ export const TaskForm = ({ storyId, onTaskAdded }) => {
   return (
     <form onSubmit={handleSubmit} className="mb-6">
       <div className="grid grid-cols-1 gap-4">
-        <input type="text" placeholder="Task Name" value={name} onChange={(e) => setName(e.target.value)} className="border p-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required/>
+        <input type="text" placeholder="Nazwa zadania" value={name} onChange={(e) => setName(e.target.value)} className="border p-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required/>
         <textarea
-          placeholder="Description"
+          placeholder="Opis"
           value={description}
           onChange={(e) => setDescription(e.target.value)}
           className="border p-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -51,7 +51,7 @@ export const TaskForm = ({ storyId, onTaskAdded }) => {
         </select>
         <input
           type="number"
-          placeholder="Estimated Hours"
+          placeholder="Osaczony godzin"
           value={estimatedTime}
           onChange={(e) => setEstimatedTime(e.target.value)}
           className="border p-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"

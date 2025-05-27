@@ -73,7 +73,7 @@ export const TaskDetails = ({ taskId, onClose }) => {
             onChange={(e) => setAssignedUser(e.target.value)}
             className="border p-2 rounded mb-2 dark:border-black dark:border-2"
           >
-            <option value="">Select User</option>
+            <option value="">Wybierz Usera</option>
             {users
               .filter((u) => u.role !== "admin")
               .map((user) => (
@@ -82,18 +82,15 @@ export const TaskDetails = ({ taskId, onClose }) => {
                 </option>
               ))}
           </select>
-          <button
-            onClick={handleAssignUser}
-            className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 "
-          >
-            Assign & Start
+          <button onClick={handleAssignUser} className="bg-blue-500 text-black px-4 py-2 rounded hover:bg-blue-600 ">
+            Przydziel i zacznij
           </button>
         </div>
       )}
 
       {task.state === "doing" && (
         <div className="mt-4">
-          <label className="block mb-1">Work Hours:</label>
+          <label className="block mb-1">Czas na wykonanie:</label>
           <input
             type="number"
             min="0"
@@ -101,7 +98,7 @@ export const TaskDetails = ({ taskId, onClose }) => {
             onChange={(e) => setWorkHours(e.target.value)}
             className="border p-2 rounded w-full mb-2"
           />
-          <button onClick={handleCompleteTask} className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">
+          <button onClick={handleCompleteTask} className="bg-green-500 text-black px-4 py-2 rounded hover:bg-green-600">
             Ukończ zadanie
           </button>
         </div>
@@ -109,12 +106,12 @@ export const TaskDetails = ({ taskId, onClose }) => {
 
       {task.state === "done" && (
         <div className="mt-4">
-          <p><strong>Work hours:</strong> {task.workHours} h</p>
+          <p><strong>Czas na wykonanie:</strong> {task.workHours} h</p>
         </div>
       )}
 
       <div className="mt-6">
-        <button onClick={onClose} className="bg-gray-400 text-white px-4 py-2 rounded hover:bg-gray-500">
+        <button onClick={onClose} className="bg-gray-400 text-black px-4 py-2 rounded hover:bg-gray-500">
           Zamknij
         </button>
       </div>

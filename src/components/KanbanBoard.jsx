@@ -5,7 +5,7 @@ export const KanbanBoard = ({tasks, onDeleteTask, onShowDetails }) => {
 
   return (
     <div className="bg-white p-6 rounded-lg shadow-md dark:bg-gray-800 dark:text-white">
-      <h2 className="text-xl font-bold mb-4">Tasks</h2>
+      <h2 className="text-xl font-bold mb-4">Zadania</h2>
       <div className="flex space-x-4">
         {["todo", "doing", "done"].map((state) => (
           <div key={state} className="flex-1">
@@ -22,8 +22,8 @@ export const KanbanBoard = ({tasks, onDeleteTask, onShowDetails }) => {
                       Usuń
                     </button>
                   </div>
-                  <button onClick={() => onShowDetails(task)} className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition-colors">
-                    Details
+                  <button onClick={() => onShowDetails(task)} className="bg-blue-500 text-black px-4 py-2 rounded-lg hover:bg-blue-600 transition-colors">
+                    Szczegóły
                   </button>
                 </li>
                 

@@ -64,7 +64,7 @@ export const StoryList = ({ projectId, onSelectStory, onStoryDetails, refreshKey
               <button onClick={() => handleDeleteStory(story.id)} className="bg-red-500 text-black px-4 py-2 rounded-lg hover:bg-red-600 transition-colors">
                 Usuń
               </button>
-              <button onClick={() => onStoryDetails(story)} className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition-colors">
+              <button onClick={() => onStoryDetails(story)} className="bg-blue-500 text-black px-4 py-2 rounded-lg hover:bg-blue-600 transition-colors">
                 Szczegóły
               </button>
             </div>

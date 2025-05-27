@@ -82,7 +82,7 @@ export const Navbar = () => {
           {user ? (
             <>
               <p>
-                Welcome, {user.firstName} {user.lastName} ({user.role})
+                Witaj, {user.firstName} {user.lastName} ({user.role})
               </p>
               {sessionTimeLeft && (
                 <p className="text-sm text-white/80">

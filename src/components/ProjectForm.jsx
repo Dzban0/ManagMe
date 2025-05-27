@@ -35,7 +35,7 @@ export const ProjectForm = ({
 			<div className="grid grid-cols-1 gap-4">
 				<input
 					type="text"
-					placeholder="Project Name"
+					placeholder="Nazwa projektu"
 					value={name}
 					onChange={(e) =>
 						setName(
@@ -48,7 +48,7 @@ export const ProjectForm = ({
 				/>
 				<input
 					type="text"
-					placeholder="Description"
+					placeholder="Opis"
 					value={description}
 					onChange={(e) =>
 						setDescription(
@@ -65,8 +65,8 @@ export const ProjectForm = ({
 						className="bg-blue-500 text-white p-2 rounded-lg hover:bg-blue-600 transition-colors"
 					>
 						{projectToEdit
-							? "Update Project"
-							: "Add Project"}
+							? "Zapisz zmiany"
+							: "Dodaj projekt"}
 					</button>
 					{projectToEdit && (
 						<button type="button" onClick={ onCancelEdit } className="bg-gray-500 text-white p-2 rounded-lg hover:bg-gray-600 transition-colors">
