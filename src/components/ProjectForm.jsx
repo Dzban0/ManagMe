@@ -69,14 +69,8 @@ export const ProjectForm = ({
 							: "Add Project"}
 					</button>
 					{projectToEdit && (
-						<button
-							type="button"
-							onClick={
-								onCancelEdit
-							}
-							className="bg-gray-500 text-white p-2 rounded-lg hover:bg-gray-600 transition-colors"
-						>
-							Cancel
+						<button type="button" onClick={ onCancelEdit } className="bg-gray-500 text-white p-2 rounded-lg hover:bg-gray-600 transition-colors">
+							Anuluj
 						</button>
 					)}
 				</div>

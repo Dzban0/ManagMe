@@ -101,10 +101,7 @@ export const Navbar = () => {
           >
             {isDark ? " Jasny" : " Ciemny"}
           </button>
-          <button
-            onClick={handleLogout}
-            className="bg-red-500 px-4 py-2 rounded-lg hover:bg-red-600 transition-colors"
-          >
+          <button onClick={handleLogout} className="bg-red-500 px-4 py-2 rounded-lg hover:bg-red-600 transition-colors">
             Wyloguj
           </button>
         </div>

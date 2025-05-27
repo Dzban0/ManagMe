@@ -37,10 +37,7 @@ export const Login = ({ onLoginSuccess }) => {
           className="border p-2 w-full mb-4 rounded"
           required
         />
-        <button
-          type="submit"
-          className="bg-blue-500 text-white w-full p-2 rounded hover:bg-blue-600"
-        >
+        <button type="submit" className="bg-blue-500 text-white w-full p-2 rounded hover:bg-blue-600">
           Zaloguj się
         </button>
       </form>
