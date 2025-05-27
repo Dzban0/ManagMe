@@ -14,7 +14,6 @@ class Api {
 		localStorage.setItem(key, JSON.stringify(items));
 	}
 
-	// Projects CRUD
 	getProjects() {
 		return this.getItems(this.projectsKey);
 	}
