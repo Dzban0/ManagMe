@@ -26,13 +26,13 @@ export const getUsers = () => {
 		{
 			id: 2,
 			firstName: "Dev",
-			lastName: "One",
+			lastName: "",
 			role: "developer",
 		},
 		{
 			id: 3,
 			firstName: "DevOps",
-			lastName: "Two",
+			lastName: "",
 			role: "devops",
 		},
 	];
