@@ -32,7 +32,7 @@ export const getUsers = () => {
 		{
 			id: 3,
 			firstName: "DevOps",
-			lastName: "",
+			lastName: "Ops",
 			role: "devops",
 		},
 	];
