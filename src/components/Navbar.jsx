@@ -78,7 +78,7 @@ export const Navbar = () => {
     <nav className="bg-blue-600 dark:bg-gray-900 text-white p-4">
       <div className="container mx-auto flex justify-between items-center">
         <div>
-          <h1 className="text-xl font-bold">ManagMe</h1>
+          <h1 className="text-xl font-bold">ManagMe - aplikacja do zarządzania projektami</h1>
           {user ? (
             <>
               <p>
